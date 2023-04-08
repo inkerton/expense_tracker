@@ -1,0 +1,46 @@
+.home_img1{
+    width:100%;
+    height: 500px;
+   mask-image:linear-gradient(to border-bottom, rgb(25, 16, 16),rgba(13, 6, 6, 0));
+   position:relative; 
+   -webkit-font-smoothing: antialiased;
+   z-index:-1; 
+   background:  linear-gradient(to right,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5));
+   
+}
+.img_text1{
+    position: absolute;
+    left:20%;
+    right:30%;
+    bottom: 25%;
+    font-weight:500;
+    font-size: x-large;
+   font-family: cursive;
+   color: aliceblue;
+}
+.home_img2{
+    width:100%;
+    height: 500px;
+   /* mask-image:linear-gradient(to left, rgba(0,0,0,1),rgba(0,0,0,0)); */
+   position:relative;
+   margin-top:-5px;
+   background:  linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5));
+    display:grid;
+
+   
+}
+.img_text2{
+    position: absolute;
+    right: 5%;
+    left:55%;
+   line-height: 1.6em;
+   top:120%;
+    font-weight:500;
+    font-size: x-large;
+   font-family: cursive;
+   color: white;
+}
